@@ -1,0 +1,30 @@
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+}
+
+
+body{
+    background-image: linear-gradient(rgba(75, 75, 75, 0.323),rgba(75, 75, 75, 0.7)), url(https://cdn.pixabay.com/photo/2014/03/25/20/17/roulette-298029_960_720.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+#titulo{
+    color: #ffba08;
+    font-size: 4em;
+}
+
+a, p{
+    font-size: 2em;
+    color: #ffffff !important;
+} 
+
+#premio {
+    font-size: 4em;
+    color: #ffffff !important;
+}
