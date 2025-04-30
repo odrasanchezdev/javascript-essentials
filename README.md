@@ -29,10 +29,9 @@ El repositorio ha sido desarrollado como parte de diversos cursos y recursos edu
 Si tienes alguna pregunta o sugerencia, no dudes en contactarme:
 <div align="center" style="display: inline_block">
   
-<a href="https://odrasanchezdev.super.site/"> <img alt="Sitio web" src="https://img.shields.io/badge/website-000000?style=for-the-badge&logo=About.me&logoColor=white" /></a>
-<a href="https://www.linkedin.com/in/odrasanchez/"> <img alt="LinkedIn" src="https://img.shields.io/badge/-LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
-<a href="https://discord.gg/JPE42a2R"> <img alt="Discord" src="https://img.shields.io/badge/Discord-7289DA?style=for-the-badge&logo=discord&logoColor=white" /></a>
-<a href="https://x.com/0dra_S0?t=AtS7ZVfs93jllBZ3RxVGQA&s=09"> <img alt="X" src="https://img.shields.io/badge/-X-000000?style=for-the-badge&logo=x&logoColor=white" /></a>
-<a href="https://www.instagram.com/odrasanchezdev/"> <img alt="Instagram" src="https://img.shields.io/badge/-Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" /></a>
+<a href="https://odrasanchezdev.super.site/">![Mysite](https://img.shields.io/badge/website-071739?style=for-the-badge)</a>
+<a href="https://www.linkedin.com/in/odrasanchez/">![LinkedIn](https://img.shields.io/badge/-LinkedIn-0077B5?style=for-the-badge)</a>
+<a href="https://ko-fi.com/odrasanchez">![Ko-fi](https://img.shields.io/badge/-Ko--fi-F16061?style=for-the-badge)</a>
+<a href="https://x.com/0dra_S0?t=AtS7ZVfs93jllBZ3RxVGQA&s=09"> <img alt="X" src="https://img.shields.io/badge/-X-000000?style=for-the-badge" /></a>
 
 </div>
