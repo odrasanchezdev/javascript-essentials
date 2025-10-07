@@ -1,0 +1,67 @@
+/* Fuente general */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(135deg, #3C6E71, #284B63);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+}
+
+/* Contenedor principal */
+#contenedor{
+  display: block;
+  margin: 0;
+}
+
+#seguro {
+  margin-left: 9rem;
+  background-color: #FFFFFF;
+  padding: 2rem 2rem;
+  border-radius: 1.5rem;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  display: block;
+  margin: 0 auto;
+  width: 500px;
+}
+
+/* Título */
+h1 {
+  text-align: center;
+  color: #FFFFFF;
+  padding: 3rem;
+  font-size: 3rem;
+}
+
+/* Texto */
+p {
+  color: #353535;
+  font-weight: 500;
+  margin-bottom: 0.5rem;
+  margin-top: 1rem;
+}
+
+a{
+  text-decoration: none;
+  font-family: Roboto, sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  color: #FFFFFF;
+  background-color: #284B63;
+  padding: 10px 25px;
+  border: solid #ffffff 2px;
+  box-shadow: rgb(0, 0, 0) 0px 0px 0px 0px;
+  border-radius: 50px;
+  transition: 1000ms;
+  cursor: pointer;
+}
+
+a:hover {
+  transition: 1000ms;
+  padding: 10px 50px;
+  background-color: #fff;
+  color: #284B63;
+  border: solid 2px #284B63;
+}

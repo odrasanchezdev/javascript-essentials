@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Comparador de seguros - FinCon</title>
+
+    <!-- Estilos -->
+    <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+
+
+<body>
+    <div id="contenedor">
+        <h1>Comparador de seguros: Hogar</h1>
+        <br>
+        <form id="formulario">
+            <p>¿Qu&eacute; tipo de casa tiene?</p>
+            <select name="tipocasa" id="tipocasa" required>
+                <option value="" hidden>Seleccione una opci&oacute;n</option>
+                <option value="1">Piso</option>
+                <option value="2">Duplex</option>
+                <option value="3">Chalet</option>
+                <option value="4">Estudio</option>
+            </select>
+
+            <p>¿Pago mensual o pago por a&ntilde;o?</p>
+            <select name="tipopago" id="tipopago" required>
+                <option value="" hidden>Seleccione una opci&oacute;n</option>
+                <option value="3">Mensual</option>
+                <option value="1">Anual</option>
+            </select>
+
+            <p>Ingrese su correo electr&oacute;nico</p>
+            <input type="email" name="correo" id="correo" required>
+
+            <br><br>
+            <button class="btn" type="button" onclick="comparar()">Comparar seguros</button>
+        </form>
+    </div>
+</body>
+
+<script type="text/javascript" src="./assets/js-bootsrap/jquery.min.js"></script>
+<script type="text/javascript" src="./assets/js-bootsrap/jquery.validate.js"></script>
+<script type="text/javascript" src="./assets/js-bootsrap/additional-methods.min.js"></script>
+<script type="text/javascript" src="./assets/js-bootsrap/bootstrap.bundle.min.js"></script>
+<script>
+   function comparar() {
+    // Obtener valores
+    var tipodecasa = document.getElementById("tipocasa").value;
+    var tipodepago = document.getElementById("tipopago").value;
+    var correo = document.getElementById("correo").value;
+
+    // Validar campos vacíos
+    if (tipodecasa === "") {
+        alert("Por favor, seleccione el tipo de casa.");
+        return false;
+    }
+
+    if (tipodepago === "") {
+        alert("Por favor, seleccione el tipo de pago.");
+        return false;
+    }
+
+    if (correo === "") {
+        alert("Por favor, ingrese su correo electrónico.");
+        return false;
+    }
+
+    // Validar formato básico del correo
+    if (!correo.includes("@") || !correo.includes(".")) {
+        alert("Ingrese un correo electrónico válido.");
+        return false;
+    }
+
+    // Redirecciones según opciones
+    if (tipodecasa === "2" && tipodepago === "3") {
+        window.location.href = "./seguros/seguro3.html";
+    } else if (tipodecasa === "2" && tipodepago === "1") {
+        window.location.href = "./seguros/seguro2.html";
+    } else {
+        window.location.href = "./seguros/seguro1.html";
+    }
+}
+</script>
+
+</html>

@@ -1,17 +1,25 @@
 # Javier-Finance_JS-desde-cero-UDEMY
 
 ## Descripción
-> Ruleta generadora de números aleatorios. El usuario introduce un número en pantalla como su apuesta.
+> Este repositorio reúne dos proyectos desarrollados en JavaScript, enfocados en demostrar el uso de la lógica, la interacción con el usuario y la manipulación del DOM para crear experiencias dinámicas en la web.
+> 
+> la idea original del proyecto pertenece al curso gratuito / video tutorial de Javier Finance en la plataforma UDEMY  
 >
-> El sistema genera un número al azar entre 0 y 30:
-> * Si el número es par, se mostrará en color rojo.
-> * Si es impar, se mostrará en color negro.
-> * Si el número es 0, tendrá un resultado especial.
+> Proyectos incluidos:  
 >
-> Finalmente comparará si el dato del usuario hizo match con el número generado aleatoriamiente
+> 1. **Comparador de Seguros**  
+>    Aplicación que permite al usuario simular la selección de un seguro ficticio.  
+>    Mediante la elección de distintos parámetros (como tipo de vivienda y monto de pago), el sistema muestra un ejemplo orientativo del tipo de seguro que podría adquirir.  
+>
+> 2. **Ruleta**  
+>    Juego interactivo que genera números aleatorios entre 0 y 30.  
+>    - Si el número es **par**, se muestra en **rojo**.  
+>    - Si el número es **impar**, se muestra en **negro**.  
+>    - Si el número es **0**, se presenta un resultado especial.  
+>    El usuario introduce un número como apuesta y el sistema evalúa si coincide con el número generado.  
 <br>
 
-## Estado del repositorio 📊️
+## Estado de carpeta 📊️
 <div align="center" style="display: inline_block">
 <img src="https://img.shields.io/badge/Coverage-100%25-7389A6?style=for-the-badge" />
 <img src="https://img.shields.io/badge/Version-1.0-7389A6?style=for-the-badge" />
@@ -41,17 +49,32 @@ No hay un proceso de instalación tradicional. Simplemente descarga el repositor
 * _No requiere instalación de librerías adicionales._
 * _Solo asegúrate de tener un navegador web actualizado (Chrome, Firefox, Edge o similar)._
 
-Para ejecutar el proyecto:
-1. Abre el archivo index.html en tu navegador.
-2. Ingresa un número en el campo de apuesta.
-3. Presiona el botón Apostar.
+Para ejecutar cada proyecto:
+1. Abre el archivo ruleta.html o comparador.html en tu navegador.
+2. Ingresa los datos solicitados-
+3. Presiona el botón.
 
-El sistema:
+### Sistema de "Ruleta":
 1. Generará un número aleatorio entre 0 y 30.
 2. Mostrará si es rojo/par, negro/impar o el caso especial 0.
 3. Indicará si tu número apostado coincide con el número generado.
 
-![Captura de pantalla de la pantalla principal de la Ruleta](./assets/ruleta-pantalla-principal.png)
+### Sistema de "Comparador":
+ 1. Verifica que el usuario haya seleccionado el tipo de casa, el tipo de pago y proporcionado un correo electrónico válido.  
+ 2. Comprueba el formato básico del correo para asegurar que contenga los símbolos necesarios.  
+ 3. Según las opciones elegidas por el usuario, redirecciona a una página de ejemplo de seguro que muestra una propuesta ficticia adaptada a su selección.  
+
+### Capturas de pantalla 📷
+<table>
+  <tr>
+    <td><img src="./assets/readme_images/ruleta-pantalla-principal.png" width="300"/></td>
+  </tr>
+  <tr>
+    <td><img src="./assets/readme_images/comparador_pantalla-principal.png" width="300"/></td>
+    <td><img src="./assets/readme_images/comparador_pantalla-resultado.png" width="300"/></td>
+  </tr>
+</table>
+<br>
 
 
 ## Soporte
