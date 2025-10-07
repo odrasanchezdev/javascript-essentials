@@ -2,12 +2,12 @@
 
 ## Descripción
 > Ruleta generadora de números aleatorios. El usuario introduce un número en pantalla como su apuesta.
-
+>
 > El sistema genera un número al azar entre 0 y 30:
 > * Si el número es par, se mostrará en color rojo.
 > * Si es impar, se mostrará en color negro.
 > * Si el número es 0, tendrá un resultado especial.
-
+>
 > Finalmente comparará si el dato del usuario hizo match con el número generado aleatoriamiente
 <br>
 
@@ -20,9 +20,9 @@
 
 ## Tecnologías utilizadas 🔨
 <div align="center" style="display: inline_block">
-<img alt="JavaScript" src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" />
-<img alt="HTML5" src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" />
-<img alt="CSS3" src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" />
+<img alt="JavaScript" src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge" />
+<img alt="HTML5" src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge" />
+<img alt="CSS3" src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge" />
 </div>
 <br>
 
