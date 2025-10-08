@@ -1,9 +1,11 @@
-# Repositorio: Practicas JavaScript
+# Javascript: Practicas introductorias
 
 ## Descripción
-> Colección de proyectos y ejercicios básicos con puntualizaciones para destacar elementos, ajustes y puntos relevantes para los usuarios. Diseñados para aprender y practicar los fundamentos de JavaScript. 
-
-> Está pensado para aquellos que recién comienzan con este lenguaje y quieren mejorar sus habilidades a través de ejemplos prácticos. Gran parte de los recursos recopilados en el repositorios, son elementos extraidos e indicados por cursos gratuitos disponibles en web.
+>Este repositorio reúne ejercicios y proyectos personales obtenidos de distintas fuentes, principalmente cursos y recursos gratuitos disponibles en la web.
+>
+>Su propósito es servir como material de práctica para quienes están comenzando con JavaScript o desean reforzar sus conocimientos. Algunos ejercicios pueden encontrarse inconclusos a propósito, para que los usuarios los completen y practiquen por su cuenta.
+>
+>Además, muchos fragmentos de código incluyen comentarios y observaciones que explican ajustes, recomendaciones o puntos clave sobre el uso de la herramienta, con el fin de ofrecer una guía más didáctica durante el aprendizaje.
 <br>
 
 ## Estado del repositorio 📊️
@@ -14,13 +16,39 @@
 
 ## Tecnologías utilizadas 🔨
 <div align="center" style="display: inline_block">
-<img alt="JavaScript" src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" />
+<img alt="JavaScript" src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge" />
 </div>
 <br>
 
-## Notas importantes ⚠
-  - Los dcoumentos cunetan con comentarios, observaciones y fórmulars en español. 
-  - Su objetivo principal es el estudiante con un nulo o básico conocimiento en el lenguaje.
+### Notas importantes ⚠
+ - Los programas incluyen comentarios, observaciones y fórmulas explicativas, redactadas principalmente en español, para facilitar la comprensión del código y su propósito.
+ - El contenido está orientado a estudiantes con un nivel inicial o básico en JavaScript, así como a quienes buscan reforzar y practicar los fundamentos del lenguaje de manera guiada.
+<br>
+
+## Instalación y uso ⚙
+Para poder utilizar los archivos de este repositorio, solo necesitas un navegador web moderno compatible con JavaScript, como:
+  * Google Chrome 🟢
+  * Mozilla Firefox 🦊
+  * Microsoft Edge 💻
+  * Safari 🍎
+
+No se requiere un proceso de instalación tradicional. Simplemente descarga el repositorio a tu computadora. Puedes hacerlo de dos maneras:
+
+1. Clonar el repositorio usando Git: ``` git clone https://github.com/odrasanchezdev/javascript-essentials ```
+2. Descargar el archivo ZIP directamente desde la página principal del repositorio en GitHub.
+
+<br>
+
+<b>▶️ Cómo ejecutar los ejercicios</b>
+
+Una vez que tengas los archivos en tu máquina:
+1. Navega hasta la carpeta del ejercicio o proyecto que desees revisar.
+2. Abre el archivo .html correspondiente haciendo doble clic sobre él, o bien, arrástralo a la ventana de tu navegador.
+3. El código JavaScript se ejecutará automáticamente dentro del navegador.
+4. Puedes editar el código con tu editor preferido (como Visual Studio Code, Sublime Text o Notepad++), para experimentar o completar los ejercicios.
+
+💡 *Sugerencia*: algunos archivos pueden incluir secciones de código inconclusas o comentadas, pensadas para que el usuario las complete y practique.
+
 <br>
 
 ## Soporte
@@ -30,10 +58,18 @@ Si tienes alguna pregunta, encuentras un error en alguno de los documentos o des
 * ¿Tienes una sugerencia? Abre un issue y comparte tu idea.
 
 Acercate a mis redes sociales para atender tus dudas y sugerencias en la sección de [Contacto](#contacto-)
+
 <br>
 
 ## Licencia ✅
-El repositorio ha sido desarrollado como parte de diversos cursos y recursos educativos que me han ayudado a aprender los fundamentos de JavaScript.
+Se permite el uso, copia y distribución de este proyecto, siempre y cuando se mantenga la atribución original y no se sublicencie. No se permite su distribución, modificación o uso comercial sin permiso expreso del autor.
+
+Copyright (c) 2025 at Odra Sanchez. Enlace del perfil:
+<div align="center" style="display: inline_block">
+  
+<a href="https://github.com/odrasanchezdev">![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)</a>
+</div>
+
 <br>
 
 ## Contacto 🌐
