@@ -3,7 +3,7 @@
 ## Descripción
 > Este repositorio reúne dos proyectos desarrollados en JavaScript, enfocados en demostrar el uso de la lógica, la interacción con el usuario y la manipulación del DOM para crear experiencias dinámicas en la web.
 > 
-> la idea original del proyecto pertenece al curso gratuito / video tutorial de Javier Finance en la plataforma UDEMY  
+> La idea original del proyecto pertenece al curso gratuito / video tutorial de Javier Finance en la plataforma UDEMY  
 >
 > Proyectos incluidos:  
 >
@@ -21,7 +21,7 @@
 
 ## Estado de carpeta 📊️
 <div align="center" style="display: inline_block">
-<img src="https://img.shields.io/badge/Coverage-100%25-7389A6?style=for-the-badge" />
+<img src="https://img.shields.io/badge/Avance-100%25-7389A6?style=for-the-badge" />
 <img src="https://img.shields.io/badge/Version-1.0-7389A6?style=for-the-badge" />
 </div>
 <br>
